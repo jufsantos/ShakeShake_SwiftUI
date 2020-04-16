@@ -44,7 +44,7 @@ class MotionManager: ObservableObject {
                         Image("chocalho2")
                     }
                 }
-                if x > 1 || y < -1{
+                if y > 1 || y < -1{
                     return VStack {
                         Image("chocalho")
                     }
@@ -53,7 +53,7 @@ class MotionManager: ObservableObject {
                         Image("chocalho2")
                     }
                 }
-                if x > 1 || z < -1{
+                if z > 1 || z < -1{
                     return VStack {
                         Image("chocalho")
                     }
